@@ -1,0 +1,65 @@
+header, footer
+{
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: blue;
+    background-color: azure;
+}
+body{
+   
+    background-color: #f0f0f0; /* change the background color */
+    color: #333; /* change the text color */
+    font-family: Arial, sans-serif; /* change the font family */
+    line-height: 1.6; /* change the line height */
+    margin: 0; /* remove the default margin */
+    padding: 0; /* remove the default padding */
+}
+main{
+    display:flex;
+    height: 800px;
+    width: 100%;
+}
+
+nav{
+    width: 30%;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(94, 156, 226, 0.418);
+    border-radius: 10px;
+    color:rgb(160, 8, 59);
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: width 1s;
+}
+a:hover{
+    width: 350px;
+    background-color: rgb(16, 219, 43);
+    color: azure;
+
+}
+iframe{
+    width:1500px;
+    height: auto;
+    background-color: #e0e0e0; /* change the background color */
+    border: 1px solid #ccc; /* add a border */
+}
